@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Button from '../components/Button';
+import Button from '../../components/Button';
 
 test('renders button with label', () => {
     render(<Button label="Click me" />);
