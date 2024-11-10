@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "jest": "^29.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -12,7 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "cosmos": "FAST_REFRESH=false cosmos",
+    "cosmos": "cross-env FAST_REFRESH=false cosmos",
     "cosmos-export": "cosmos-export",
     "eject": "react-scripts eject"
   },
@@ -40,6 +43,7 @@
     "@testing-library/user-event": "^14.5.2",
     "@types/jest": "^29.5.13",
     "babel-jest": "^29.7.0",
+    "cross-env": "^7.0.3",
     "react-cosmos": "^6.2.0",
     "react-cosmos-plugin-webpack": "^6.2.0"
   }

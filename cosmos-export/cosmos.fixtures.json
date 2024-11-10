@@ -1,0 +1,14 @@
+{
+  "rendererUrl": "renderer.html",
+  "fixtures": [
+    {
+      "filePath": "src/fixtures/Button.fixture.js",
+      "cleanPath": [
+        "src",
+        "fixtures",
+        "Button"
+      ],
+      "rendererUrl": "renderer.html?fixtureId=%7B%22path%22%3A%22src%2Ffixtures%2FButton.fixture.js%22%7D&locked=true"
+    }
+  ]
+}

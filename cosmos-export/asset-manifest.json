@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/main.js",
+    "786.js": "/786.js",
+    "renderer.html": "/renderer.html",
+    "main.js.map": "/main.js.map",
+    "786.js.map": "/786.js.map"
+  },
+  "entrypoints": [
+    "main.js"
+  ]
+}
